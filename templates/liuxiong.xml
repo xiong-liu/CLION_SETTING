@@ -1,0 +1,8 @@
+<templateSet group="liuxiong">
+  <template name="main" value="int main(int argv ,char** argc){&#10;    $END$&#10;    return 0;&#10;}" description="C/C++运行主函数" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="c" value="true" />
+      <option name="cpp" value="true" />
+    </context>
+  </template>
+</templateSet>
