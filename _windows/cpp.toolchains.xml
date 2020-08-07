@@ -1,8 +1,8 @@
 <application>
   <component name="CPPToolchains" version="4">
     <toolchains detectedVersion="5">
-      <toolchain name="Remote Host" toolSetKind="REMOTE" customCMakePath="\usr\bin\cmake" customCCompilerPath="/usr/bin/clang-9" customCXXCompilerPath="/usr/bin/clang++-9" hostId="48fd5c05-e88a-4874-a819-42a835516372" debuggerKind="CUSTOM_GDB" customGDBPath="\usr\bin\lldb-8" />
       <toolchain name="Visual Studio" toolSetKind="MSVC" toolSetPath="F:\VisualS" debuggerKind="BUNDLED_LLDB" />
+      <toolchain name="Remote Host" toolSetKind="REMOTE" customCMakePath="\usr\bin\cmake" customCCompilerPath="/usr/bin/clang-9" customCXXCompilerPath="/usr/bin/clang++-9" hostId="48fd5c05-e88a-4874-a819-42a835516372" debuggerKind="CUSTOM_GDB" customGDBPath="\usr\bin\lldb-8" />
     </toolchains>
   </component>
 </application>
