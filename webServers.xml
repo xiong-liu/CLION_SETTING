@@ -1,8 +1,14 @@
 <application>
   <component name="WebServers">
     <option name="servers">
-      <webServer id="48fd5c05-e88a-4874-a819-42a835516372" name="Remote Host (48fd5c05-e88a-4874-a819-42a835516372)" url="http:///">
-        <fileTransfer accessType="SFTP" host="192.168.124.160" port="22" sshConfigId="82d0b9d8-805d-4684-be77-bcae2c5f81d4" sshConfig="liuxiong@192.168.124.160:22 password" />
+      <webServer id="adb6591b-be3b-4fc2-8175-49af43e10f18" name="Remote Host (1) (adb6591b-be3b-4fc2-8175-49af43e10f18)" url="http:///">
+        <fileTransfer accessType="SFTP" host="192.168.124.160" port="22" sshConfigId="82d0b9d8-805d-4684-be77-bcae2c5f81d4" sshConfig="root@192.168.124.160:22 password" />
+      </webServer>
+      <webServer id="48fd5c05-e88a-4874-a819-42a835516372" name="本地Ubuntu (48fd5c05-e88a-4874-a819-42a835516372)" url="http:///">
+        <fileTransfer accessType="SFTP" host="192.168.124.160" port="22" sshConfigId="82d0b9d8-805d-4684-be77-bcae2c5f81d4" sshConfig="root@192.168.124.160:22 password" />
+      </webServer>
+      <webServer id="e0e302d9-59d3-418b-b9f2-5ee1b466be6f" name="远程Ubuntu (e0e302d9-59d3-418b-b9f2-5ee1b466be6f)" url="http:///">
+        <fileTransfer accessType="SFTP" host="39.96.64.61" port="22" sshConfigId="4fe10b84-08d9-4d1c-92f8-947a149ea4a5" sshConfig="root@39.96.64.61:22 password" />
       </webServer>
     </option>
   </component>
